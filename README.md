@@ -1,8 +1,21 @@
-# glc README
+# glc-vscode
+Resaltado de sintaxis para vs code.
+- Derivación: ->
+- Or: | 
+- Los no terminales deben empezar en mayúscula. Ej: NoTerminal
+- Cualquier no terminal será terminal.
+
+Las palabras deben estar separadas por un espacio.
+
+# Uso
+### Linux
+Bajar los archivos del repo, descomprimirlos y copiarlos a una carpeta dentro de ~/.vscode/extensions/
+
+## glc README
 
 This is the README for your extension "glc". After writing up a brief description, we recommend including the following sections.
 
-## Features
+### Features
 
 Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
 
@@ -12,11 +25,11 @@ For example if there is an image subfolder under your extension project workspac
 
 > Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
 
-## Requirements
+### Requirements
 
 If you have any requirements or dependencies, add a section describing those and how to install and configure them.
 
-## Extension Settings
+### Extension Settings
 
 Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
 
@@ -27,29 +40,29 @@ This extension contributes the following settings:
 * `myExtension.enable`: enable/disable this extension
 * `myExtension.thing`: set to `blah` to do something
 
-## Known Issues
+### Known Issues
 
 Calling out known issues can help limit users opening duplicate issues against your extension.
 
-## Release Notes
+### Release Notes
 
 Users appreciate release notes as you update your extension.
 
-### 1.0.0
+#### 1.0.0
 
 Initial release of ...
 
-### 1.0.1
+#### 1.0.1
 
 Fixed issue #.
 
-### 1.1.0
+#### 1.1.0
 
 Added features X, Y, and Z.
 
 -----------------------------------------------------------------------------------------------------------
 
-## Working with Markdown
+### Working with Markdown
 
 **Note:** You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
 
@@ -57,7 +70,7 @@ Added features X, Y, and Z.
 * Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
 * Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
 
-### For more information
+#### For more information
 
 * [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
 * [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
