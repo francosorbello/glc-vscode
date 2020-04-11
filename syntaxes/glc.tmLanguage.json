@@ -1,0 +1,60 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "GLC",
+	"patterns": [
+		{
+			"include": "#terminales"
+		},
+		{
+			"include": "#noterminales"
+		},
+		{
+			"include": "#separadores"
+		},
+		{
+			"include": "#comentarios"
+		}
+
+	],
+	"repository": {
+		"separadores": {
+			"patterns": [{
+				"name": "entity.name.type",
+				"match": "->|\\|"
+			}]
+		},
+		"terminales": {
+			"patterns": [
+				{
+					"name": "entity.name.function",
+					"match": "\\b([a-z])(\\S*)\\b"
+				},
+				{
+					"name": "entity.name.function",
+					"match": "\\+|\\*|\\?|\\^|\\$|\\\\|\\.|\\[|\\]\\|\\{|\\}|\\(|\\)|\\||\\/|\\-"
+				}
+			]
+		},
+		"noterminales": {
+			"patterns": [
+				{
+					"name": "a",
+					"match": "\\b([A-Z])(\\S*)\\b"
+				}
+			]
+		},
+
+		"comentarios":
+		{
+			"patterns": [
+				{
+					"name": "comment.line.double-slash",
+					"begin": "//",
+					"end": "\n"		
+				}
+			]
+		}
+
+	},
+	"scopeName": "source.glc"
+}

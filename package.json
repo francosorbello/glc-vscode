@@ -1,0 +1,25 @@
+{
+    "name": "glc",
+    "displayName": "glc",
+    "description": "gramatica libre de contexto",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.44.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "glc",
+            "aliases": ["GLC", "glc"],
+            "extensions": [".glc"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "glc",
+            "scopeName": "source.glc",
+            "path": "./syntaxes/glc.tmLanguage.json"
+        }]
+    }
+}
