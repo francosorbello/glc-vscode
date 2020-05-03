@@ -4,6 +4,8 @@ Resaltado de sintaxis para vs code.
 - Or: | 
 - Los no terminales deben empezar en mayúscula. Ej: NoTerminal
 - Cualquier no terminal será terminal.
+- Comentarios: //
+- Acciones de EDT: {abc...}
 
 Las palabras deben estar separadas por un espacio.
 
