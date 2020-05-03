@@ -13,6 +13,9 @@
 		},
 		{
 			"include": "#comentarios"
+		},
+		{
+			"include": "#edt"
 		}
 
 	],
@@ -31,7 +34,7 @@
 				},
 				{
 					"name": "entity.name.function",
-					"match": "\\+|\\*|\\?|\\^|\\$|\\\\|\\.|\\[|\\]\\|\\{|\\}|\\(|\\)|\\/|\"|\\'"
+					"match": "\\+|\\*|\\?|\\^|\\$|\\\\|\\.|\\[|\\]\\|\\(|\\)|\"|\\'"
 				}
 			]
 		},
@@ -50,11 +53,20 @@
 				{
 					"name": "comment.line.double-slash",
 					"begin": "//",
-					"end": "\n"		
+					"end": "\\n"
+				}
+			]
+		},
+		"edt":
+		{
+			"patterns": [
+				{
+					"name": "string",
+					"begin": "{",
+					"end": "}"
 				}
 			]
 		}
-
 	},
 	"scopeName": "source.glc"
 }
