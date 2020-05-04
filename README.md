@@ -12,6 +12,7 @@ Las palabras deben estar separadas por un espacio.
 # Uso
 ### Linux
 Bajar los archivos del repo, descomprimirlos y copiarlos a una carpeta dentro de ~/.vscode/extensions/
+También se puede instalar ejecutando el script "installer.sh". 
 
 ## glc README
 
